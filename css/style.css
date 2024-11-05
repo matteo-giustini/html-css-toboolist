@@ -1,0 +1,31 @@
+/*------------
+    reset
+-------------*/
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    }
+    /*-------------
+    commons--------*/
+body{
+
+    background-color: #F6F8F9;
+    font-family: "Roboto", sans-serif;
+}
+ /*-----------
+    header
+    ------------*/
+header{
+    background: #ffffff;
+    padding: 15px 20px
+}
+h1{
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: 900;
+    font-size: 40px;
+}
+.logo{
+    vertical-align: middle;
+}
