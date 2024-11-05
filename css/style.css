@@ -13,12 +13,53 @@ body{
     background-color: #F6F8F9;
     font-family: "Roboto", sans-serif;
 }
+.btn{
+    background: transparent;
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 6px;
+}
+.btn-blue{
+    background-color: #14AAF5;
+    color: #ffffff;
+    border-color: #14AAF5;
+}
+.btn-grey{
+    color: #C4CBD0;
+    border-color: #C4CBD0;
+}
+.tag{
+    display: inline-block;
+    color: #ffffff;
+    font-size: 12px;
+    padding: 8px 12px;
+    border-radius: 12pz;
+}
+.tag-blue{
+    background-color: #14AAF5;
+    }
+.tag-purple{
+    background-color: #ab5de6;
+}
+.tag-green{
+    background-color: #2CC6AB;
+}
+.tag-oragnge{
+    background-color: #FF9B00;
+}
+.tag-pink{
+    background-color: #EC4A9D;
+}
+.tag-green{
+    background-color: #A3D116;
+}
  /*-----------
     header
     ------------*/
 header{
     background: #ffffff;
-    padding: 15px 20px
+    padding: 15px 20px;
+    margin-bottom: 40px;
 }
 h1{
     display: inline-block;
@@ -28,4 +69,13 @@ h1{
 }
 .logo{
     vertical-align: middle;
+}
+/*-------------
+   main
+---------------*/
+main{
+    background-color: #ffffff;
+    width: 800px;
+    margin: 0 auto;
+    border-radius: 10px;
 }
